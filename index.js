@@ -33,7 +33,9 @@ if (name === "matt") {
     } else {
         alert('unexpected choice.');
     }
-}  else {
+} else if (name ==='scott'){
+    prompt('You lose get wrecked nerd');
+} else {
     
         if (userChoice === computerChoice) {
             alert(`you chose ${userChoice}, computer chose ${computerChoice}.  Tie game!`);

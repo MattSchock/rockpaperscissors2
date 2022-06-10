@@ -59,6 +59,8 @@ if (name === "matt") {
                     alert(`you chose ${userChoice}, computer chose ${computerChoice}, you lose!`);
                 }
             
+        }  else {
+            alert('unexpected choice please try again');
         }
     }
 document.location.reload(); 

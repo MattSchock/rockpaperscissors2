@@ -3,6 +3,7 @@ name = name.toLowerCase()
 let userChoice = prompt('please choose rock, paper or scissors');
 userChoice = userChoice.toLowerCase();
 
+
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
     computerChoice = 'rock';
@@ -11,8 +12,8 @@ if (computerChoice < 0.34) {
   }  else {
         computerChoice = 'scissors';
     }
-
-
+userChoice = userChoice.replace(/\s+/g, '');
+name = name.replace(/\s+/g, '');
 if (name === "matt") {
     if (userChoice === 'rock') {
         alert('You chose rock, computer picked scissors, congrats you win!');
@@ -60,3 +61,4 @@ if (name === "matt") {
             
         }
     }
+document.location.reload(); 

@@ -36,7 +36,9 @@ if (name === "matt") {
     }
 } else if (name ==='scott'){
     prompt('You lose get wrecked nerd');
-} else {
+} else if (name === 'lewis') {
+    prompt('suck it nerd')
+}  else {
     
         if (userChoice === computerChoice) {
             alert(`you chose ${userChoice}, computer chose ${computerChoice}.  Tie game!`);
